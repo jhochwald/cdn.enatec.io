@@ -1,225 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-
-	<!-- Document Title -->
-	<title>enabling Technology</title>
-
-	<!-- Base URL to use for all relative URLs contained within the document -->
-	<base href="https://cdn.enatec.io/">
-
-	<!-- Search Eengine and Browser Meta Tags. -->
-	<meta name="description" content="enabling Technology - A small automation and cloud consulting powerhouse located in Frankfurt, Germany.">
-	<meta name="abstract" content="enabling Technology - A small automation and cloud consulting powerhouse located in Frankfurt, Germany.">
-	<meta name="revisit-after" content="7 days">
-	<meta name="distribution" content="web">
-	<meta name="author" content="enabling Technology">
-	<meta name="publisher" content="enabling Technology">
-	<meta name="generator" content="Hand made code">
-
-	<!-- Search engine robots Meta Tags. -->
-	<meta name="robots" content="index, follow">
-
-	<!-- Browser Compability Meta Tags -->
-	<meta http-equiv="x-ua-compatible" content="ie=7">
-	<meta http-equiv="x-ua-compatible" content="ie=8">
-	<meta http-equiv="x-ua-compatible" content="ie=emulateie7">
-	<meta http-equiv="x-ua-compatible" content="ie=emulateie8">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<meta http-equiv="x-ua-compatible" content="ie=5">
-	<meta http-equiv="x-ua-compatible" content="ie=5; ie=8">
-	<meta http-equiv="x-ua-compatible" content="chrome=1">
-	<meta http-equiv="x-ua-compatible" content="ie=emulateie7; chrome=1">
-
-	<!-- Prefetch -->
-	<link rel="dns-prefetch" href="//cdn.enatec.io">
-	<link rel="dns-prefetch" href="//oss.maxcdn.com">
-	<link rel="dns-prefetch" href="//fonts.googleapis.com">
-
-	<!-- Twitter Card -->
-	<meta name="twitter:card" content="summary">
-	<meta name="twitter:description" content="A small automation and cloud consulting powerhouse located in Frankfurt, Germany">
-	<meta name="twitter:title" content="enabling Technology &bull; Unified Communications, Collaboration and Cloud Technology">
-	<meta name="twitter:site" content="@enatec_io">
-	<meta name="twitter:creator" content="@jhochwald">
-	<meta name="twitter:url" content="https://cdn.enatec.io/">
-
-	<!-- Pinterest. -->
-	<meta name="pinterest" content="nopin" description="Sorry, you can't save from our website yet!">
-
-	<!-- CSS -->
-	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lobster">
-	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700">
-	<link rel="stylesheet" href="//cdn.enatec.io/assets/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="//cdn.enatec.io/assets/font-awesome/css/font-awesome.min.css">
-	<link rel="stylesheet" href="//cdn.enatec.io/assets/css/style.css">
-
-	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-	<!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-	<![endif]-->
-
-	<!-- Favicon and touch icons -->
-	<link rel="shortcut icon" type="image/x-icon" href="//cdn.enatec.io/assets/ico/favicon.ico">
-	<link rel="icon" type="image/x-icon" href="//cdn.enatec.io/assets/ico/favicon.ico">
-	<link rel="icon" type="image/gif" href="//cdn.enatec.io/assets/ico/favicon.gif">
-	<link rel="icon" type="image/png" href="//cdn.enatec.io/assets/ico/favicon.png">
-	<link rel="apple-touch-icon" href="//cdn.enatec.io/assets/ico/apple-touch-icon.png">
-	<link rel="apple-touch-icon" href="//cdn.enatec.io/assets/ico/apple-touch-icon-57x57.png" sizes="57x57">
-	<link rel="apple-touch-icon" href="//cdn.enatec.io/assets/ico/apple-touch-icon-60x60.png" sizes="60x60">
-	<link rel="apple-touch-icon" href="//cdn.enatec.io/assets/ico/apple-touch-icon-72x72.png" sizes="72x72">
-	<link rel="apple-touch-icon" href="//cdn.enatec.io/assets/ico/apple-touch-icon-76x76.png" sizes="76x76">
-	<link rel="apple-touch-icon" href="//cdn.enatec.io/assets/ico/apple-touch-icon-114x114.png" sizes="114x114">
-	<link rel="apple-touch-icon" href="//cdn.enatec.io/assets/ico/apple-touch-icon-120x120.png" sizes="120x120">
-	<link rel="apple-touch-icon" href="//cdn.enatec.io/assets/ico/apple-touch-icon-128x128.png" sizes="128x128">
-	<link rel="apple-touch-icon" href="//cdn.enatec.io/assets/ico/apple-touch-icon-144x144.png" sizes="144x144">
-	<link rel="apple-touch-icon" href="//cdn.enatec.io/assets/ico/apple-touch-icon-152x152.png" sizes="152x152">
-	<link rel="apple-touch-icon" href="//cdn.enatec.io/assets/ico/apple-touch-icon-180x180.png" sizes="180x180">
-	<link rel="apple-touch-icon" href="//cdn.enatec.io/assets/ico/apple-touch-icon-precomposed.png">
-	<link rel="icon" type="image/png" href="//cdn.enatec.io/assets/ico/favicon-16x16.png" sizes="16x16">
-	<link rel="icon" type="image/png" href="//cdn.enatec.io/assets/ico/favicon-32x32.png" sizes="32x32">
-	<link rel="icon" type="image/png" href="//cdn.enatec.io/assets/ico/favicon-96x96.png" sizes="96x96">
-	<link rel="icon" type="image/png" href="//cdn.enatec.io/assets/ico/favicon-160x160.png" sizes="160x160">
-	<link rel="icon" type="image/png" href="//cdn.enatec.io/assets/ico/favicon-192x192.png" sizes="192x192">
-	<link rel="icon" type="image/png" href="//cdn.enatec.io/assets/ico/favicon-196x196.png" sizes="196x196">
-
-	<!-- Web App Settings. -->
-	<meta name="mobile-web-app-capable" content="yes">
-
-	<!-- Apple iOS Settings. -->
-	<meta name="apple-mobile-web-app-capable" content="yes">
-	<meta name="apple-mobile-web-app-status-bar-style" content="black">
-	<meta name="format-detection" content="telephone=no">
-
-	<!-- Windows Internet Explorer. -->
-	<meta http-equiv="cleartype" content="on">
-	<meta name="skype_toolbar" content="skype_toolbar_parser_compatible">
-	<meta name="msapplication-tap-highlight" content="no">
-	<meta name="application-name" content="enabling Technology">
-	<meta name="msapplication-starturl" content="/">
-	<meta name="msapplication-allowDomainApiCalls" content="true">
-	<meta name="msapplication-allowDomainMetaTags" content="true">
-	<meta name="msapplication-TileImage" content="//cdn.enatec.io/assets/ico/win8-tile-144x144.png">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-navbutton-color" content="#ffffff">
-	<meta name="msapplication-square70x70logo" content="//cdn.enatec.io/assets/ico/win8-tile-70x70.png">
-	<meta name="msapplication-square144x144logo" content="//cdn.enatec.io/assets/ico/win8-tile-144x144.png">
-	<meta name="msapplication-square150x150logo" content="//cdn.enatec.io/assets/ico/win8-tile-150x150.png">
-	<meta name="msapplication-wide310x150logo" content="//cdn.enatec.io/assets/ico/win8-tile-310x150.png">
-	<meta name="msapplication-square310x310logo" content="//cdn.enatec.io/assets/ico/win8-tile-310x310.png">
-
-	<!-- Geo Positioning Meta Tags. -->
-	<meta name="geo.position" content="50.1021550;8.6630010">
-	<meta name="geo.region" content="DE-HE">
-	<meta name="geo.placename" content="Schleusenstrase 9, 60327 Frankfurt am Main, Deutschland">
-	<meta name="ICBM" content="50.1021550, 8.6630010">
-	<meta name="DC.title" content="enabling Technology, Frankfurt">
-
-	<!-- Open Graph Meta Tags (ogp.me) -->
-	<meta property="og:image" content="//cdn.enatec.io/assets/img/enabling_Technology_Logo.png">
-	<meta property="og:site_name" content="enabling Technology">
-	<meta property="og:title" content="enabling Technology - Frankfurt, Germany.">
-	<meta property="og:description" content="enabling Technology - A small automation and cloud consulting powerhouse located in Frankfurt, Germany.">
-	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://cdn.enatec.io/index.html">
-	<meta property="og:locale" content="en_US">
-	<meta property="og:locale:alternate" content="de_DE">
-	<meta property="og:latitude" content="50.1021550">
-	<meta property="og:longitude" content="8.6630010">
-	<meta property="og:street-address" content="Schleusenstr. 9">
-	<meta property="og:locality" content="Frankfurt">
-	<meta property="og:region" content="Hessen">
-	<meta property="og:postal-code" content="60327">
-	<meta property="og:country-name" content="DE">
-	<meta property="og:phone_number" content="+49 69 710414421">
-</head>
-
-<body>
-	<div class="container">
-		<div class="row header">
-			<div class="col-sm-5 logo">
-				<h1><a href="index.html"><img src="//cdn.enatec.io/assets/img/enabling_Technology_Logo.png" alt="enabling Technology" width="235" height="54"></a></h1>
-			</div>
-			<div class="col-sm-7 call-us">
-				<p>&#9990; <span><a href="tel:+4969710414421" data-toggle="tooltip" data-placement="button" title="Give us a call">&#43;49&#45;69&#45;710414421</a></span>					&#8226; &#9993; <span><a href="mailto:i%6e&#102;%6f@%65nat%65c.io" data-toggle="tooltip" data-placement="button" title="Contact us by mail">info&#64;enatec&#8228;io</a></span></p>
-			</div>
-		</div>
-	</div>
-
-	<div class="coming-soon">
-		<div class="inner-bg">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-12">
-						<h1>enabling Technology</h1>
-						<p>Hi there and welcome to this enabling Technology site.</p>
-						<p>&nbsp;</p>
-						<p>This is a Node of your internal Content Delivery Network (CDN).</p>
-						<p>If you came from a bookmark, please check it an update it to <a href="http://www%2Eenatec%2Eio" rel="alternate" title="Visit www&#8228;enatec&#8228;io">www&#8228;enatec&#8228;io</a>.</p>
-						<p>&nbsp;</p>
-						<p>You might want to visit <a href="http://www%2Eenatec%2Eio" rel="alternate" title="Visit www&#8228;enatec&#8228;io">www&#8228;enatec&#8228;io</a></p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-6 contact">
-				<h3>Contact</h3>
-				<span itemscope itemtype="http://schema.org/Organization">
-							kreativSign GmbH<br>
-							<span itemprop="name">enabling Technology</span><br>
-				<span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-				<span itemprop="streetAddress">Schleusenstra&szlig;e 9</span><br>
-				<span itemprop="postalCode">60327</span> <span itemprop="addressLocality">Frankfurt am Main</span>, Germany<br>
-				</span>
-				&#9990; <span itemprop="telephone"><a href="tel:+4969710414421" data-toggle="tooltip" data-placement="button" title="Give us a call">&#43;49&#45;69&#45;710414421</a></span>
-				</span><br>
-				<a href="http://www%2Eenatec%2Eio" rel="alternate" title="Visit www&#8228;enatec&#8228;io">www&#8228;enatec&#8228;io</a>
-			</div>
-
-			<div class="col-sm-6 legal">
-				<h3>Impress</h3>
-				<p>enabling Technology is the IT brand of<br>
-					<span itemprop="name">kreativSign GmbH</span><br> Register Court: Amtsgericht Limburg, Registered number HRB 4733<br>					Represented by: Michaela Burggraf (GM)<br> VAT identification number: DE 251 323 832<br> Registered office: <span itemprop="address"
-					 itemscope itemtype="http://schema.org/PostalAddress">
-							<span itemprop="streetAddress">Bahnhofsplatz 2A</span>, <span itemprop="postalCode">65549</span> <span itemprop="addressLocality">Limburg</span>,
-					Germany
-					</span><br>
-					<a href="http://www%2Ekreativsign%2Enet" target="_blank" title="Visit www&#8228;kreativsign&#8228;net">www&#8228;kreativsign&#8228;net</a></p>
-			</div>
-		</div>
-	</div>
-
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-12 social">
-				<a rel="external" href="https://www.facebook.com/" data-toggle="tooltip" data-placement="top" title="Facebook coming soon"><i class="fa fa-facebook"></i></a>
-				<a rel="external" href="https://twitter.com/enatec%5Fio" data-toggle="tooltip" data-placement="top" title="Follow &#64;enatec&#95;io on Twitter"><i class="fa fa-twitter"></i></a>
-			</div>
-
-			<div class="col-sm-12 footer">
-				<p>Copyright &copy; 2018 by enabling Technology. All rights reserved. &#8226; Made with <span style="color:red">&#10084;</span> by <a href="http://www%2Eenatec%2Eio" style="color:silver" title="enabling Technology" target="_blank">enabling Technology</a></p>
-			</div>
-		</div>
-	</div>
-
-	<!-- Javascript -->
-	<script type="text/javascript" src="https://enatec.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-T/w34rg7/b/18/a44af77267a987a660377e5c46e0fb64/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-UK&collectorId=e7797dd9"></script>
-	<script src="//cdn.enatec.io/assets/js/jquery-1.11.1.min.js"></script>
-	<script src="//cdn.enatec.io/assets/bootstrap/js/bootstrap.min.js"></script>
-	<script src="//cdn.enatec.io/assets/js/jquery.backstretch.min.js"></script>
-	<script src="assets/js/scripts.js"></script>
-</body>
-
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+        <!-- Document Title -->
+        <title>enabling Technology - Internal Site</title>
+        <!-- Search Eengine and Browser Meta Tags. -->
+        <meta name="description" content="enabling Technology - This is a domain/site/page that we use for internal purposes and it might be without any useful content for you.">
+        <meta name="abstract" content="enabling Technology - This is a domain/site/page that we use for internal purposes and it might be without any useful content for you.">
+        <meta name="revisit-after" content="7 days">
+        <meta name="distribution" content="web">
+        <meta name="author" content="enabling Technology">
+        <meta name="publisher" content="enabling Technology">
+        <meta name="generator" content="Hand made code">
+        <!-- Search engine robots Meta Tags. -->
+        <meta name="robots" content="index, follow">
+        <!-- Browser Compability Meta Tags -->
+        <meta http-equiv="x-ua-compatible" content="ie=7">
+        <meta http-equiv="x-ua-compatible" content="ie=8">
+        <meta http-equiv="x-ua-compatible" content="ie=emulateie7">
+        <meta http-equiv="x-ua-compatible" content="ie=emulateie8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta http-equiv="x-ua-compatible" content="ie=5">
+        <meta http-equiv="x-ua-compatible" content="ie=5; ie=8">
+        <meta http-equiv="x-ua-compatible" content="chrome=1">
+        <meta http-equiv="x-ua-compatible" content="ie=emulateie7; chrome=1">
+        <!-- Prefetch -->
+        <link rel="dns-prefetch" href="//cdn.enatec.io">
+        <link rel="dns-prefetch" href="//oss.maxcdn.com">
+        <link rel="dns-prefetch" href="//fonts.googleapis.com">
+        <!-- Twitter Card -->
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:description" content="A small automation and cloud consulting powerhouse located in Frankfurt, Germany">
+        <meta name="twitter:title" content="enabling Technology &bull; Unified Communications, Collaboration and Cloud Technology">
+        <meta name="twitter:site" content="@enatec_io">
+        <meta name="twitter:creator" content="@jhochwald">
+        <meta name="twitter:url" content="https://www.enatec.net/">
+        <!-- Pinterest. -->
+        <meta name="pinterest" content="nopin" description="Sorry, you can't save from our website yet!">
+        <!-- Favicon and touch icons -->
+        <link rel="shortcut icon" type="image/x-icon" href="//cdn.enatec.io/assets/ico/favicon.ico">
+        <link rel="icon" type="image/x-icon" href="//cdn.enatec.io/assets/ico/favicon.ico">
+        <link rel="icon" type="image/gif" href="//cdn.enatec.io/assets/ico/favicon.gif">
+        <link rel="icon" type="image/png" href="//cdn.enatec.io/assets/ico/favicon.png">
+        <link rel="apple-touch-icon" href="//cdn.enatec.io/assets/ico/apple-touch-icon.png">
+        <link rel="apple-touch-icon" href="//cdn.enatec.io/assets/ico/apple-touch-icon-57x57.png" sizes="57x57">
+        <link rel="apple-touch-icon" href="//cdn.enatec.io/assets/ico/apple-touch-icon-60x60.png" sizes="60x60">
+        <link rel="apple-touch-icon" href="//cdn.enatec.io/assets/ico/apple-touch-icon-72x72.png" sizes="72x72">
+        <link rel="apple-touch-icon" href="//cdn.enatec.io/assets/ico/apple-touch-icon-76x76.png" sizes="76x76">
+        <link rel="apple-touch-icon" href="//cdn.enatec.io/assets/ico/apple-touch-icon-114x114.png" sizes="114x114">
+        <link rel="apple-touch-icon" href="//cdn.enatec.io/assets/ico/apple-touch-icon-120x120.png" sizes="120x120">
+        <link rel="apple-touch-icon" href="//cdn.enatec.io/assets/ico/apple-touch-icon-128x128.png" sizes="128x128">
+        <link rel="apple-touch-icon" href="//cdn.enatec.io/assets/ico/apple-touch-icon-144x144.png" sizes="144x144">
+        <link rel="apple-touch-icon" href="//cdn.enatec.io/assets/ico/apple-touch-icon-152x152.png" sizes="152x152">
+        <link rel="apple-touch-icon" href="//cdn.enatec.io/assets/ico/apple-touch-icon-180x180.png" sizes="180x180">
+        <link rel="apple-touch-icon" href="//cdn.enatec.io/assets/ico/apple-touch-icon-precomposed.png">
+        <link rel="icon" type="image/png" href="//cdn.enatec.io/assets/ico/favicon-16x16.png" sizes="16x16">
+        <link rel="icon" type="image/png" href="//cdn.enatec.io/assets/ico/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="//cdn.enatec.io/assets/ico/favicon-96x96.png" sizes="96x96">
+        <link rel="icon" type="image/png" href="//cdn.enatec.io/assets/ico/favicon-160x160.png" sizes="160x160">
+        <link rel="icon" type="image/png" href="//cdn.enatec.io/assets/ico/favicon-192x192.png" sizes="192x192">
+        <link rel="icon" type="image/png" href="//cdn.enatec.io/assets/ico/favicon-196x196.png" sizes="196x196">
+        <!-- Web App Settings. -->
+        <meta name="mobile-web-app-capable" content="yes">
+        <!-- Apple iOS Settings. -->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="format-detection" content="telephone=no">
+        <!-- Windows Internet Explorer. -->
+        <meta http-equiv="cleartype" content="on">
+        <meta name="skype_toolbar" content="skype_toolbar_parser_compatible">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="application-name" content="enabling Technology">
+        <meta name="msapplication-starturl" content="/">
+        <meta name="msapplication-allowDomainApiCalls" content="true">
+        <meta name="msapplication-allowDomainMetaTags" content="true">
+        <meta name="msapplication-TileImage" content="//cdn.enatec.io/assets/ico/win8-tile-144x144.png">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-navbutton-color" content="#ffffff">
+        <meta name="msapplication-square70x70logo" content="//cdn.enatec.io/assets/ico/win8-tile-70x70.png">
+        <meta name="msapplication-square144x144logo" content="//cdn.enatec.io/assets/ico/win8-tile-144x144.png">
+        <meta name="msapplication-square150x150logo" content="//cdn.enatec.io/assets/ico/win8-tile-150x150.png">
+        <meta name="msapplication-wide310x150logo" content="//cdn.enatec.io/assets/ico/win8-tile-310x150.png">
+        <meta name="msapplication-square310x310logo" content="//cdn.enatec.io/assets/ico/win8-tile-310x310.png">
+        <!-- Geo Positioning Meta Tags. -->
+        <meta name="geo.position" content="50.1021550;8.6630010">
+        <meta name="geo.region" content="DE-HE">
+        <meta name="geo.placename" content="Schleusenstrase 9, 60327 Frankfurt am Main, Deutschland">
+        <meta name="ICBM" content="50.1021550, 8.6630010">
+        <meta name="DC.title" content="enabling Technology, Frankfurt">
+        <!-- Open Graph Meta Tags (ogp.me) -->
+        <meta property="og:image" content="https://www.enatec.net/assets/img/enabling_Technology_Logo.png">
+        <meta property="og:site_name" content="enabling Technology">
+        <meta property="og:title" content="enabling Technology - Frankfurt, Germany.">
+        <meta property="og:description" content="enabling Technology - A small automation and cloud consulting powerhouse located in Frankfurt, Germany.">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://www.enatec.net/index.html">
+        <meta property="og:locale" content="en_US">
+        <meta property="og:locale:alternate" content="de_DE">
+        <meta property="og:latitude" content="50.1021550">
+        <meta property="og:longitude" content="8.6630010">
+        <meta property="og:street-address" content="Schleusenstr. 9">
+        <meta property="og:locality" content="Frankfurt">
+        <meta property="og:region" content="Hessen">
+        <meta property="og:postal-code" content="60327">
+        <meta property="og:country-name" content="DE">
+        <meta property="og:phone_number" content="+49 69 710414421">
+        <link rel="stylesheet" href="//cdn.enatec.io/assets/css/style-enatec-template.css">
+    </head>
+    <body class="enatec-layout enatec-page-notification enatec-page-size-medium" data-enatec-version="5.7.0">
+        <div id="smart-status-page">
+            <section id="content" role="main">
+                <div id="notifications">
+                    <div class="default-component enatec-page-panel">
+                        <div class="enatec-page-header-inner">
+                            <section class="enatec-page-panel-content">
+                                <h1><a href="index.html"><img src="//cdn.enatec.io/assets/img/enabling_Technology_Logo.png" alt="enabling Technology" width="235" height="54"></a></h1>
+                                <div class="enatec-page-notification-description">
+                                    Hi there and welcome to this <a href="http://www%2Eenatec%2Eio" rel="alternate" title="Visit www&#8228;enatec&#8228;io">enabling Technology</a> site.
+                                    <br><br>
+                                    This is a domain/site/page that we use for internal purposes and it might be without any useful content for you.
+                                    <br><br>
+                                    If you came from a bookmark, please check it an update it to <a href="http://www%2Eenatec%2Eio" rel="alternate" title="Visit www&#8228;enatec&#8228;io">www&#8228;enatec&#8228;io</a>.
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer id="footer">
+                <section class="footer-body">
+                    <ul>
+                        <li>Copyright &copy; 2018 by <a href="http://www%2Eenatec%2Eio" rel="alternate" title="Visit www&#8228;enatec&#8228;io">enabling Technology</a>. All rights reserved.</li>
+                        <li>Made with <span style="color:red">&#10084;</span> by <a href="http://www%2Eenatec%2Eio" title="enabling Technology" target="_blank">enabling Technology</a></li>
+                    </ul>
+                </section>
+            </footer>
+        </div>
+        <script type="text/javascript" src="https://enatec.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-T/-ekx5ua/b/18/a44af77267a987a660377e5c46e0fb64/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-UK&collectorId=9b27abb8"></script>
+    </body>
 </html>
+
